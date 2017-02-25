@@ -1,6 +1,6 @@
 # This is taken straight from Documentation/kprobes.txt
 
-obj-m := trace-exec.o
+obj-m := my_do_execve.o
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 default:
